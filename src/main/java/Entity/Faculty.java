@@ -25,6 +25,11 @@ public class Faculty {
                 '}';
     }
 
+    public Builder copy(Faculty faculty){
+        this.facultyName = faculty.facultyName;
+        this.facultyNum = faculty.facultyNum;
+        return this;
+    }
 
     public static class Builder{
         private int facultyNum;
