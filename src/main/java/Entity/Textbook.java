@@ -1,5 +1,10 @@
 package Entity;
 
+/**
+ * @author Airmick
+ * Desc: Entity Textbook
+ * date: 24 june 2020
+ */
 
 public class Textbook
 {
